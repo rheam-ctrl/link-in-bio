@@ -3,10 +3,23 @@
 <head>
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+  <!--Inter Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<!--Gentium Book Plus-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <style>
+    /*
     *{
       border: 1px red dashed;
     }
+      */
     html {
       min-height: 100%;
     }
@@ -15,7 +28,16 @@
     padding-top: 80px;
     padding-bottom: 40px;
     background: linear-gradient(180deg, #ffffff, #faf9fe, #f5f3fd, #f0edfc, #ebe7fb, #e6e2f9, #e1dcf8, #dcd6f7);
+    font-family: "Inter";
+    text-decoration: none;
+    color: rgba(0, 0, 0, 100)
     }
+
+    a {
+  color: rgba(0, 0, 0, 100);
+  text-decoration: none;
+  }
+
     .main-container {
     max-width: 640px;
     margin: auto;
@@ -35,10 +57,14 @@
   }
 
   .item {
-  background-color: rgba(220, 214, 247, 0.8);
+  background-color: rgba(255, 147, 172, 0.264);
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px;
+  box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
   }
 
   .image-row {
@@ -49,6 +75,9 @@
 .main-row {
   margin-bottom: 30px;
   text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: "Gentium Book Plus";
 }
 
 .social-icons-row {
@@ -61,6 +90,7 @@
   text-align: center;
   flex-grow: 1;
 }
+
   </style>
 </head>
 <body>
@@ -78,15 +108,15 @@
 
   <div class = "social-icons-row">
     <a href="https://rhea-mendiratta.notion.site/Hi-I-m-Rhea-17c179f1081180e78687dd532858a64c" target="_blank">
-      Website
+      <i class="fa-solid fa-globe"></i>
     </a>
     
     <a href="www.linkedin.com/in/rheamendiratta" target="_blank">
-      LinkedIn
+      <i class="fa-brands fa-linkedin"></i>
     </a>
 
     <a href="https://github.com/rheam-ctrl" target="_blank">
-      GitHub
+      <i class="fa-brands fa-github"></i>
     </a>
 
   </div> <!--social icons row-->
